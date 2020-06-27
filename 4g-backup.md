@@ -10,7 +10,7 @@ I have a static public facing IPv4 address, using NAT with private address space
 
 ## Original Network
 
-![Original Network](InitialState.png)
+![Original Network](images/InitialState.png)
 
 I have a VDSL connection using my ISP supplied Zyxel VMG-3925-B10C router, with WIFI disabled and using separate wireless access points. The router established a PPPoE connection to my ISP and and was then responsible for NAT/routing/firewall. It also ran local network services (DHCP, ND/RA, DNS forwarder)
 
