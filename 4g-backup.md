@@ -40,8 +40,17 @@ I already knew of Ubiquiti and looked into their routers, but they didn't seem t
 
 In the end my research led me to Mikrotik, a Latvian manufacturer of a very broad range of networking kit. 
 
-They make an x86 image of their RouterOS operating system available, so I tested this out in a VM first to convince myself that it could do everything I wanted it to. It certainly seemed to!
+They make an x86 image of their RouterOS operating system available, so I tested this out in a VM first to convince myself that it could do everything I wanted it to. It certainly seemed to! RouterOS is super configurable and quite a different experience from the typical consumer router.
 
 I took the plunge and bought a hEX 5 port router for about £60. It performs well and does hardware switching. I slightly regretted not buying an hEX S because it has a POE port and an SFP port (that you could put an RJ45 module into for an extra port), but it's not made a big difference.
 
-## Configuration
+## 4G Reception
+
+My house is in a slight 4G black spot, and I didn't have any choice of network as I was tied into a 3 contract. Near the router I was getting speeds of roughly 1 Mbps in each direction. Luckily in my loft I was getting much better speeds (up to about 20Mbps each way, but typically more like 15Mbps.) I didn't particlarly want to drill more holes (having recently done this to run ethernet down the garden), but had a spare pair of Powerline adapters which worked well enough between the two routers.
+
+## Initial Router Configuration
+
+There's quite a bit to do in getting the Mikrotik set up providing normal internet duties, so I've pulled that out into a separate page:
+
+[Initial Config] (initial-config.md)
+
