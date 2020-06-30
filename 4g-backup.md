@@ -8,6 +8,13 @@ I had also inherited a 3 HomeFi 4G router and contract, which it would seem a sh
 
 I have a static public facing IPv4 address, using NAT with private address space on my local network. I also have a static IPv6 /64 block of addresses routed to my internal network. As I have these I was keen to be able to keep them during failover. This allows me to keep using firewall rules that are in place and also (maybe...) keep TCP connections established during failover.
 
+## Requirements recap
+* Backup internet connection
+* Automated failover
+* With (some) alerting
+* Maintaining public IPv4 address, so that outgoing NAT requests come from the same source
+* Maintaining incoming routes for our IPv6 addresses
+
 ## Original Network
 
 ![Original Network](images/InitialState.png)
@@ -29,7 +36,7 @@ I had come up with requirements for a router:
 * Low power consumption
 * Cheap(ish)
 
-I already knew of Ubiquiti and looked into their routers, but they didn't seem to be quite as configurable as I wanted and didn't support an out of the box L2TP client. I started looking into small PCs, but they started to get expensive, or didn't have enough ethernet ports, or had high power consumption.
+I already knew of Ubiquiti and looked into their routers, but they didn't seem to be quite as configurable as I wanted and didn't support an out of the box L2TP client. I started looking into small PCs, but they started to get expensive, or didn't have enough ethernet ports, or had high power consumption. My ISP are heavily involved with [Firebrick] (https://www.firebrick.co.uk/), which look great, but too expensive.
 
 In the end my research led me to Mikrotik, a Latvian manufacturer of a very broad range of networking kit. 
 
