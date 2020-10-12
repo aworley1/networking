@@ -50,7 +50,7 @@ My house is in a slight 4G black spot, and I didn't have any choice of network a
 
 ## Initial Router Configuration
 
-There's quite a bit to do in getting the Mikrotik set up providing normal internet duties, so I've pulled that out into a separate page:
+There's quite a bit to do in getting the MikroTik set up providing normal internet duties, so I've pulled that out into a separate page:
 
 [Initial Config](initial-config.md)
 
